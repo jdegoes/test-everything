@@ -1,0 +1,8 @@
+{
+  "name": "purescript-everything",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt-purescript": "~0.3.0"
+  },
+  "private": true
+}
