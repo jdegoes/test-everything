@@ -4,6 +4,8 @@ module.exports = function(grunt) {
 
   grunt.initConfig({ 
   
+    "clean": ["js", "externs"],
+  
     "purescript-make": {
       options: {
         tco: true,
@@ -19,6 +21,8 @@ module.exports = function(grunt) {
       
   });
 
+  grunt.loadNpmTasks("grunt-contrib-clean");
   grunt.loadNpmTasks("grunt-purescript");
-  grunt.registerTask("default", ["purescript-make"]);
+  
+  grunt.registerTask("default", ["clean", "purescript-make"]);
 };
