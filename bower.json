@@ -36,7 +36,6 @@
     "purescript-random": "*",
     "purescript-reactive": "*",
     "purescript-reactive-jquery": "*",
-    "purescript-read": "*",
     "purescript-refs": "*",
     "purescript-strings": "*",
     "purescript-transformers": "*",
