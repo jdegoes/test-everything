@@ -9,10 +9,14 @@
     "tests"
   ],
   "dependencies": {
+    "purescript-arb-instances": "*",
     "purescript-arrays": "*",
     "purescript-arrows": "*",
+    "purescript-bifunctors": "*",
+    "purescript-canvas": "*",
     "purescript-control": "*",
     "purescript-datetime": "*",
+    "purescript-drawing": "*",
     "purescript-either": "*",
     "purescript-enums": "*",
     "purescript-exceptions": "*",
@@ -28,7 +32,10 @@
     "purescript-monoid": "*",
     "purescript-node-args": "*",
     "purescript-node-buffer": "*",
+    "purescript-node-fs": "*",
+    "purescript-node-path": "*",
     "purescript-node-readline": "*",
+    "purescript-node-url": "*",
     "purescript-parsing": "*",
     "purescript-pattern-arrows": "*",
     "purescript-promises": "*",
@@ -37,9 +44,13 @@
     "purescript-reactive": "*",
     "purescript-reactive-jquery": "*",
     "purescript-refs": "*",
+    "purescript-showdown": "*",
+    "purescript-string-parsers": "*",
     "purescript-strings": "*",
     "purescript-transformers": "*",
-    "purescript-tuples": "*"
+    "purescript-tuples": "*",
+    "purescript-validation": "*",
+    "purescript-webstorage": "*"
   },
   "private": true
 }
